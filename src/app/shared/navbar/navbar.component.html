@@ -1,0 +1,44 @@
+<header class="header">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="header_logo">
+          <a [routerLink]="'/home'"
+          routerLinkActive="active"><span>Three</span>Fash</a>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <nav class="nav1">
+          <ul>
+            <li>
+              <a [routerLink]="'/home'"
+              routerLinkActive="active">
+              Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a [routerLink]="'/product'"
+              routerLinkActive="active">Product</a></li>
+            <li><a href="#designer-router">Designer</a></li>
+            <li><a [routerLink]="'/contact'"
+              routerLinkActive="active">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-lg-3">
+        <div class="header_right">
+          <div class="header_right_auth">
+            <a [routerLink]="'/auth/signin'"
+            routerLinkActive="active"><span class="material-icons">
+                account_circle
+              </span></a>
+            <a [routerLink]="'/cart'"
+            routerLinkActive="active"><span class="material-icons">
+                shopping_cart
+              </span></a>
+              <a href="#" class="fas fa-sign-out-alt"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+

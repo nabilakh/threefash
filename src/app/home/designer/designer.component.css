@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+section{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(97, 97, 97);
+  margin-top: 5rem;
+}
+h1{
+  font-size: 3.5rem;
+  color: #555;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+h3{
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
+}
+h5{
+  color: rgb(131, 111, 1);
+  font-size: 1rem;
+  font-family: 'Varela Round', sans-serif;
+}
+#designer p {
+  font-weight: 500;
+  font-family: 'Varela Round', sans-serif;
+}
+#designer .card {
+  border-radius: 0;
+  box-shadow: 5px 5px 15px #000000;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+}
+#designer .card:hover {
+  background: rgb(204, 173, 0);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #333;
+}

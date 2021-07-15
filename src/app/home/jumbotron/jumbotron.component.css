@@ -1,0 +1,11 @@
+img{
+  height: 110vh;
+  width: 100%;
+ }
+ .carousel-caption {
+   color: gold;
+   margin-right: -54rem;
+ }
+ h3{
+   font-size: 7rem;
+ }

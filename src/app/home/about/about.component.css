@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.logo{
+  color: #000;
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 2rem;
+}
+.logo span {
+  color: gold;
+  font-size: 47px;
+}
+.lead {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 19px;
+  text-indent: 5rem;
+}
+a, a:hover, a:focus{
+  text-decoration: none;
+  outline: none;
+}
+.product a {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 500;
+  display: block;
+  padding: 5px 0;
+  position: relative;
+}
+.product a:after{
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  margin-top: 3rem;
+  background-color: gold;
+  transition: all 0.5s;
+  transform: scale(0);
+}
+.container .product:hover a:after {
+  transform: scale(1);
+}
+.product{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  display:  inline-block;
+  padding: 36px 0;
+}
+.right{
+  float: right;
+  margin-top: -4rem;
+  font-family: 'Poppins', sans-serif;
+}
